@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    tools:context=".MainActivity">
+
+    <!--Title-->
+
+    <!--Sign Up btn one-->
+    <TextView
+        android:id="@+id/GitHub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="GitHub"
+        android:textColor="#673AB7"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.151" />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="130dp"
+        android:layout_height="58dp"
+        android:backgroundTint="@android:color/white"
+        android:text="Log In"
+        android:textColor="#673AB7"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toEndOf="@+id/SignUp"
+        app:layout_constraintTop_toBottomOf="@+id/GitHub"
+        app:layout_constraintVertical_bias="0.238" />
+
+    <!--Login btn one-->
+    <Button
+        android:id="@+id/SignUp"
+        android:layout_width="130dp"
+        android:layout_height="58dp"
+        android:text="Sign Up"
+        android:backgroundTint="@android:color/white"
+        android:textColor="#673AB7"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.185"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/GitHub"
+        app:layout_constraintVertical_bias="0.238" />
+
+    <!--Login btn two-->
+    <Button
+        android:id="@+id/Login2"
+        android:layout_width="130dp"
+        android:layout_height="58dp"
+        android:backgroundTint="@android:color/white"
+        android:text="Log In 2"
+        android:textColor="#673AB7"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toEndOf="@+id/SignUp2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.588" />
+
+    <!--Sign Up btn two-->
+    <Button
+        android:id="@+id/SignUp2"
+        android:layout_width="130dp"
+        android:layout_height="58dp"
+        android:backgroundTint="@android:color/white"
+        android:text="Sign Up 2"
+        android:textColor="#673AB7"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.185"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.588" />
+
+    <!--Update btn-->
+    <Button
+        android:id="@+id/Update"
+        android:layout_width="180dp"
+        android:layout_height="58dp"
+        android:backgroundTint="#00BCD4"
+        android:text="Updates"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.835" />
+</androidx.constraintlayout.widget.ConstraintLayout>
